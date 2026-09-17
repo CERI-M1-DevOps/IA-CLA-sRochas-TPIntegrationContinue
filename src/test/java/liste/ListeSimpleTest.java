@@ -104,7 +104,7 @@ public class ListeSimpleTest {
         assertEquals(3, listeATester.getSize());
     }
 
-        @Test
+    @Test
     void supprimePremierexistePas() {
         listeATester.ajout(1);
         listeATester.ajout(2);
